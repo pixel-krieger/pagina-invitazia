@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  @apply inline-block px-7 py-3 rounded text-center bg-primary text-black;
+}
+
+.btn-secondary {
+  @apply inline-block px-7 py-3 rounded text-center bg-secondary text-black;
+}
+
+.h2 {
+  @apply font-serif font-bold text-4xl mb-3;
+}
+
+.h3 {
+  @apply font-serif font-bold text-xl;
+}
+
+.card {
+  @apply rounded bg-secondary-50 p-3;
+}
